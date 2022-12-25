@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Log In to you Account</title>
+    <link rel="stylesheet" href="Login.css">
+    <script src = "CheckLoginForm.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="mylogo.jpg" class="mylogo">
+        <!-- <p1 class="p1">About Me</p1> -->
+    </div>
+    <div class="signupbox">
+<!---   <h1>Login</h1>
+        <h1>Sign-Up</h1>-->
+        <img src="userlogo.jpg" class="userlogo">
+        <h1>Log-In</h1>
+        <form onsubmit="return validateForm()" method="post" action="Login.html" name="lform">
+            <p>Profile Name</p>
+            <input type="text" name="profileName" placeholder="  Enter Profile Name">
+            <p>Password</p>
+            <input type="password"name="password" placeholder="  Enter Password">
+            <input type="submit" name="login" value="Login">
+            <p1> Create New Account <a href="SignUp.html">Click Here</a></p1>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

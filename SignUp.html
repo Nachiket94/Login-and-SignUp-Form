@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Register Yourself</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="CheckSignUpForm.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="mylogo.jpg" class="mylogo">
+        <!-- <p1 class="p1">About Me</p1> -->
+    </div>
+    <div class="signupbox">
+        <img src="userlogo.jpg" class="userlogo">
+        <h1>Enter Your Details</h1>
+        <form onsubmit="return validateForm()" method="post" action="SignUp.html" name="sform">
+            <p>Profile Name</p>
+            <input type="text" name="profileName" placeholder="  Enter Profile Name">
+            <p>E-Mail ID</p>
+            <input type="text" name="email" placeholder="  For eg: abc123@gmail.com">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="  Enter Password">
+            <p>Confirm Password</p>
+            <input type="password" name="confirmPassword" placeholder="  Confirm Password">
+            <input type="submit" name="signup" value="Sign Up">
+            <p1>Already Have an Account? <a href="Login.html">Login Here</a></p1>
+        </form>
+            
+        
+    </div>
+    
+</body>
+</html>
